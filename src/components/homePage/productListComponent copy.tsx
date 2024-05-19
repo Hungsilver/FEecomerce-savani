@@ -1,8 +1,6 @@
-'use client';
-import React, { useState } from 'react'
+"use client";
+import React, { useState } from "react";
 
-function ProductListComponent({ children }: any) {
+function ProductListComponent({ children }: any) {}
 
-}
-
-export default ProductListComponent
+export default ProductListComponent;

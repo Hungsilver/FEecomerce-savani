@@ -38,7 +38,10 @@ export interface IProduct {
     subCategory: ISubCategory;
     promotion: any;
     description: string;
-    image: any;
+    thumbnail: string;
+    price: number;
+    priceBeforeDiscount:number;
+    showDiscount:number;
     productDetails: any[];
     createdDate: string;
     lastModifiedDate: string;
